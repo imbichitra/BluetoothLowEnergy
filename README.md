@@ -14,7 +14,7 @@ You have to add some permission in manifest as
 For download the app use git clone https://github.com/imbichitra/BluetoothLowEnergy.git
 ```
 ### For read advertisement packet
-If you wan to read advertisement packet and perform some specific action then you can get it from the onLeScan as below
+If you want to read advertisement packet and perform some specific action then you can get it from the onLeScan as below
 * onLeScan(final BluetoothDevice device, final int rssi, final byte[] scanRecord)
 ```
  byte[] string = {'B', 'L', 'E', 'N', 'A', 'M'};
