@@ -89,11 +89,11 @@ public class DeviceListActivity extends AppCompatActivity {
                 @Override
                 public void run() {
                     //boolean equal = true;
-                    byte[] string = {'A', 'Z', 'L', 'O', 'C', 'K'};
+                    /*byte[] string = {'B', 'L', 'E', 'N', 'A', 'M'};
                     for (int i = 9; i < 15; i++) {
                         if (scanRecord[i] != string[i - 9])
                             return;
-                    }
+                    }*/
                     Log.d(TAG, "run: "+device);
                     addDevice(device, rssi);
                 }
